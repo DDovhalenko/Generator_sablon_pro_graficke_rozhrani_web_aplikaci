@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Nepojmenovaný_přechod_177-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Nepojmenovaný_přechod_140);
+      }
+
+      .cls-3 {
+        fill: url(#Nepojmenovaný_přechod_110);
+        opacity: .7;
+      }
+
+      .cls-4 {
+        fill: url(#Nepojmenovaný_přechod_177);
+      }
+
+      .cls-5 {
+        fill: url(#Nepojmenovaný_přechod_189);
+      }
+    </style>
+    <linearGradient id="Nepojmenovaný_přechod_177" data-name="Nepojmenovaný přechod 177" x1="7.57" y1="128" x2="248.43" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#87004a"/>
+      <stop offset="1" stop-color="#790d73"/>
+    </linearGradient>
+    <linearGradient id="Nepojmenovaný_přechod_110" data-name="Nepojmenovaný přechod 110" x1="-2699.16" y1="-1386.3" x2="-2597.78" y2="-1210.7" gradientTransform="translate(1160.39 2881.86) rotate(43.34)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Nepojmenovaný_přechod_189" data-name="Nepojmenovaný přechod 189" x1="166.97" y1="44.12" x2="97.9" y2="233.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#00231e" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="Nepojmenovaný_přechod_140" data-name="Nepojmenovaný přechod 140" x1="-1110.11" y1="8884.85" x2="-1285" y2="8985.82" gradientTransform="translate(-8654.14 2278.88) rotate(-111.18)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".9" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Nepojmenovaný_přechod_177-2" data-name="Nepojmenovaný přechod 177" x1="65.66" y1="138" x2="198.33" y2="138" xlink:href="#Nepojmenovaný_přechod_177"/>
+  </defs>
+  <g id="COLORING">
+    <path class="cls-4" d="m240.74,134.64c.1-.3.19-.59.3-.89,2.59-7.75,4.75-16.45,6.4-26.28,6.58-49.04-21.41-76.73-30.37-84.22C200.07,9.5,176.32,0,145.52,0,108.62,0,76.48,10.58,49.93,34.64c-2.3,2.09-4.47,4.25-6.59,6.44-4.3,4.34-2.98,3.09-8.28,9.46-17.31,21.85-26.53,48.34-27.42,79.04-1.12,38.57,11.24,71.28,36.72,97.23,11.44,11.64,24.2,20.75,38.18,27.36,10.1,2.84,20.61,2.84,32.51-3.32.01,0,.02-.01.03-.02,4.85-2.44,9.94-5.87,15.26-10.5,4.7-4.33,9.41-8.23,14.11-11.83-39.42,4.15-78.29-18.27-93.3-57-17.96-46.35,5.05-98.48,51.4-116.44,46.35-17.96,98.48,5.05,116.44,51.4,8.9,22.96,7.74,47.35-1.34,68.29,9.11-10.08,17.17-22.7,23.1-40.09Z"/>
+  </g>
+  <g id="BLACK_CENTER" data-name="BLACK CENTER">
+    <path id="Shade" class="cls-3" d="m240.22,104.99c-.01-.07-.03-.15-.04-.22-2.83-15.56-9.75-30.13-19.91-42.26-2.04-2.44-4.19-4.81-6.46-7.12h0c-46.51-47.32-122.57-47.99-169.89-1.48h0C3.97,93.18-2.73,153.51,24.14,199.82l.04.02c33.82.33,59.67,9.41,88.65,12.22,28.7,2.27,60.22-1.97,103.13-39.43,27.82-28,25.37-59.84,24.26-67.65Z"/>
+    <circle class="cls-5" cx="132.44" cy="139" r="100.97"/>
+    <path class="cls-2" d="m183.65,207.6c-52,20.15-110.49-5.67-130.64-57.66-9.57-24.68-8.76-50.82.28-73.63-21.46,27.14-28.42,64.59-15.01,99.18,20.15,52,78.64,77.81,130.64,57.66,27.31-10.59,47.39-31.76,57.39-57-10.8,13.65-25.25,24.71-42.65,31.45Z"/>
+  </g>
+  <g id="ICON_SYMBOLS" data-name="ICON SYMBOLS">
+    <path class="cls-1" d="m67.52,131.68c-1.4-1.47-1.98-3.55-1.53-5.53,6.1-26.75,27.49-47.19,54.49-52.06,26.82-4.84,53.91,6.69,69.02,29.38,1.85,2.78,1.1,6.54-1.68,8.39-2.78,1.85-6.54,1.1-8.39-1.68-12.43-18.67-34.71-28.15-56.79-24.17-19.05,3.44-34.7,16.29-41.94,33.75l77.73-14.03c3.29-.6,6.44,1.59,7.03,4.88.59,3.29-1.59,6.44-4.88,7.03l-87.6,15.81c-.36.06-.72.1-1.07.1-1.64,0-3.22-.67-4.38-1.87Zm123.39,10.87l-87.6,15.81c-3.29.59-5.48,3.74-4.88,7.03.59,3.29,3.74,5.47,7.03,4.88l77.73-14.03c-7.24,17.47-22.9,30.32-41.94,33.75-22.06,3.98-44.36-5.51-56.79-24.17-1.85-2.78-5.61-3.54-8.39-1.68-2.78,1.85-3.54,5.61-1.68,8.39,12.82,19.25,34.26,30.47,56.85,30.47,4.03,0,8.1-.36,12.16-1.09,27-4.87,48.39-25.31,54.49-52.06.45-1.98-.12-4.06-1.52-5.53s-3.45-2.14-5.45-1.78Zm7.32-16.64c-.59-3.29-3.74-5.48-7.03-4.88l-120.56,21.76c-3.29.59-5.48,3.74-4.88,7.03.53,2.93,3.08,4.98,5.95,4.98.36,0,.72-.03,1.08-.1l120.56-21.76c3.29-.59,5.48-3.74,4.88-7.03Z"/>
+  </g>
+</svg>

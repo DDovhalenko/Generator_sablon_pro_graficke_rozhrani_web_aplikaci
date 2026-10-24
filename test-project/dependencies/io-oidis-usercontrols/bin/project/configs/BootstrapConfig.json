@@ -1,0 +1,24 @@
+{
+    "components": [
+        {
+            "name": ["button"],
+            "className": "Button",
+            "path": "@io-oidis-usercontrols/Io/Oidis/UserControls/Bootstrap/UserControls/Button.js"
+        },
+        {
+            "name": ["heading", "paragraph", "span", "italic", "small", "bold"],
+            "className": "Label",
+            "path": "@io-oidis-usercontrols/Io/Oidis/UserControls/Bootstrap/UserControls/Label.js"
+        },
+        {
+            "name": ["textInput", "textarea"],
+            "className": "TextField",
+            "path": "@io-oidis-usercontrols/Io/Oidis/UserControls/Bootstrap/UserControls/TextField.js"
+        },
+        {
+            "name": ["checkboxInput"],
+            "className": "CheckBox",
+            "path": "@io-oidis-usercontrols/Io/Oidis/UserControls/Bootstrap/UserControls/CheckBox.js"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "components": [
+        {
+            "name": "homePanel",
+            "label": "Home Panel",
+            "className": "HomePanel",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/HomePanel.js",
+            "category": "Project components",
+            "htmlPattern": "<div><span>HomePanel</span></div>"
+        },
+        {
+            "name": "headerPanel",
+            "label": "Header Panel",
+            "className": "HeaderPanel",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/HeaderPanel.js",
+            "category": "Project components",
+            "htmlPattern": "<div><span>HeaderPanel</span></div>"
+        },
+        {
+            "name": "footerPanel",
+            "label": "Footer Panel",
+            "className": "FooterPanel",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/FooterPanel.js",
+            "category": "Project components",
+            "htmlPattern": "<div><span>FooterPanel</span></div>"
+        },
+        {
+            "name": "mainComponent",
+            "label": "Main Component",
+            "className": "MainComponent",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/MainComponent.js",
+            "category": "Project components",
+            "htmlPattern": "<div><span>MainComponent</span></div>"
+        }
+        ,
+        {
+            "name": "testComponent",
+            "className": "TestComponent",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/TestComponent.js",
+            "htmlPattern": "<div><span>TestComponent</span></div>"
+        }
+    ]
+}
