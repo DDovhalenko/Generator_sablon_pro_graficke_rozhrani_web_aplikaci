@@ -3,3 +3,55 @@
 /io-oidis-studio-compiled/*
 !/io-oidis-studio-source/dependencies/io-oidis-studio-gui/
 !/io-oidis-studio-source/dependencies/io-oidis-studio-gui/**
+
+# IDE settings
+/.idea/*
+!/.idea/runConfigurations/
+!/.idea/libraries/
+!/.idea/*.iml
+!/.idea/jsLibraryMappings.xml
+!/.idea/modules.xml
+!/.idea/misc.xml
+!/.idea/vcs.xml
+!/.idea/icon.svg
+
+# Oidis Builder products
+__cleanup/
+/bin/*
+!/bin/project/
+!/bin/project/solutions/*.jsonp
+!/bin/project/configs/*.json*
+/build/
+/build_cache/
+/node_definitions/
+/node_modules/
+/node_modules
+/dependencies/
+/cmake-build-*/
+/external_modules/
+/wui_modules/
+/log/
+package-map.json
+package.json
+package-lock.json
+reference.d.ts.orig
+compiled.pom.xml
+*.compiled.d.scss
+tsconfig.json
+webpack.config.js
+
+# Ignored files in project scope
+/resource/data/**/Cache/
+/resource/data/**/SSL/
+private.conf.json*
+connector.config.js*
+
+# Various
+*.tmp.txt
+*.log
+sh.exe.stackdump
+*.DS_Store
+*.directory
+
+# Project individual ignore patterns
+*.private.env.json
