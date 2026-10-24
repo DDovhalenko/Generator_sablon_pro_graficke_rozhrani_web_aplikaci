@@ -1,0 +1,43 @@
+/* ********************************************************************************************************* *
+ *
+ * Copyright 2025 Oidis
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+ * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+ *
+ * ********************************************************************************************************* */
+Io.Oidis.Builder.DAO.Resources.Data({
+    $interface: "IProjectSolution",
+    name: "io-oidis-studio-gui",
+    description: "Oidis Framework code base for Drag-and-Drop GUI editor",
+    version: "2025.2.0",
+    homepage: "www.oidis.io",
+    repository: "https://gitlab.com/oidis/io-oidis-studio-gui.git",
+    author: {
+        name: "Oidis z.s.",
+        email: "info@oidis.io"
+    },
+    license: "Copyright <? @var build.year ?> Oidis. The BSD-3-Clause license for this file can be found in the LICENSE.txt " +
+        "file included with this distribution or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText.",
+    dependencies: {
+        "io-oidis-services": "git+https://gitlab.com/oidis/io-oidis-services.git#develop",
+        "io-oidis-usercontrols": "git+https://gitlab.com/oidis/io-oidis-usercontrols.git#develop"
+    },
+    loaderClass: "Io.Oidis.Studio.Gui.Loader",
+    imports: {
+        commons: "dependencies/io-oidis-commons/bin/project/configs/commons.jsonp",
+        licensesRegister: "bin/project/configs/licensesRegister.jsonp",
+        bootstrap: "bin/project/configs/bootstrap.jsonp",
+        fontawesome: "dependencies/io-oidis-gui/bin/project/configs/fontawesome.jsonp"
+    },
+    target: {
+        name: "OidisStudio",
+        copyright: "Copyright <? @var build.year ?> Oidis",
+        description: "Drag-and-Drop GUI editor"
+    },
+    solutions: {
+        default: "static",
+        static: "dependencies/io-oidis-services/bin/project/solutions/static.jsonp"
+    }
+});

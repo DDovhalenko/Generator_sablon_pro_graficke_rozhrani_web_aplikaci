@@ -1,5 +1,5 @@
 # Ignore everything in dependencies except io-oidis-studio-gui
-/io-oidis-studio-source/*
+/io-oidis-studio-source/dependencies/*
 /io-oidis-studio-compiled/*
-#!/io-oidis-studio-source/dependencies/io-oidis-studio-gui/
-#!/io-oidis-studio-source/dependencies/io-oidis-studio-gui/**
+!/io-oidis-studio-source/dependencies/io-oidis-studio-gui/
+!/io-oidis-studio-source/dependencies/io-oidis-studio-gui/**

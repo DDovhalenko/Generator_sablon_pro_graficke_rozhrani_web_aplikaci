@@ -1,0 +1,31 @@
+/* ********************************************************************************************************* *
+ *
+ * Copyright 2025 Oidis
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+ * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+ *
+ * ********************************************************************************************************* */
+Io.Oidis.Builder.DAO.Resources.Data({
+    $interface: "IProjectSolution",
+    extendsConfig: "dependencies/io-oidis-localhost/bin/project/configs/commons.jsonp",
+    domain: {
+        ports: {
+            http: 9304,
+            https: 9747
+        },
+        csp: {
+            policies: {
+                localhostConfig: {
+                    default: {
+                        policy: {
+                            "upgrade-insecure-requests": false,
+                            "frame-ancestors": ["self", "http://localhost:*"]
+                        }
+                    }
+                }
+            }
+        }
+    }
+});

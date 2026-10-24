@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "alwaysStrict": false,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitOverride": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "strictBindCallApply": false,
+    "strictBuiltinIteratorReturn": false,
+    "strictFunctionTypes": false,
+    "useUnknownInCatchVariables": false,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "lib": [
+      "DOM",
+      "ScriptHost",
+      "WebWorker",
+      "ESNext"
+    ],
+    "paths": {
+      "@io-oidis-gui/*": [
+        "dependencies/io-oidis-gui/source/typescript/*"
+      ],
+      "@io-oidis-gui/test/unit/*": [
+        "dependencies/io-oidis-gui/test/unit/typescript/*"
+      ],
+      "@io-oidis-services/*": [
+        "dependencies/io-oidis-services/source/typescript/*"
+      ],
+      "@io-oidis-services/test/unit/*": [
+        "dependencies/io-oidis-services/test/unit/typescript/*"
+      ],
+      "@io-oidis-usercontrols/*": [
+        "dependencies/io-oidis-usercontrols/source/typescript/*"
+      ],
+      "@io-oidis-usercontrols/test/unit/*": [
+        "dependencies/io-oidis-usercontrols/test/unit/typescript/*"
+      ],
+      "@io-oidis-commons/*": [
+        "dependencies/io-oidis-commons/source/typescript/*"
+      ],
+      "@io-oidis-commons/test/unit/*": [
+        "dependencies/io-oidis-commons/test/unit/typescript/*"
+      ],
+      "@io-oidis-localhost/*": [
+        "dependencies/io-oidis-localhost/source/typescript/*"
+      ],
+      "@io-oidis-localhost/test/unit/*": [
+        "dependencies/io-oidis-localhost/test/unit/typescript/*"
+      ],
+      "@io-oidis-studio-gui/*": [
+        "dependencies/io-oidis-studio-gui/source/typescript/*"
+      ],
+      "@io-oidis-studio-gui/test/unit/*": [
+        "dependencies/io-oidis-studio-gui/test/unit/typescript/*"
+      ],
+      "@nodejs/*": [
+        "dependencies/nodejs/build/node_modules/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "copyrights": {
+    "exclude": [
+      ".idea/*",
+      "*/graphics/*",
+      "*/libs/*",
+      "test/resource/data/*",
+      "*.json",
+      "*.bsdesign",
+      "source/html/MaintenancePage.html",
+      "resource/template/*",
+      "CLA.txt"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+/* ********************************************************************************************************* *
+ *
+ * Copyright 2025 Oidis
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+ * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+ *
+ * ********************************************************************************************************* */
+Io.Oidis.Builder.DAO.Resources.Data({
+    $interface: "IProjectSolution",
+    extendsConfig: "dependencies/io-oidis-services/bin/project/configs/licensesRegister.jsonp",
+    imports: {
+        userControls: "dependencies/io-oidis-usercontrols/bin/project/configs/licensesRegister.jsonp",
+    },
+    licensesRegister: {
+        "io-oidis-studio-gui": {
+            location: [
+                "[target/]MaintenancePage.html",
+                "[target/]/resource/css/[package-name]-[version].min.css",
+                "[target/]/resource/graphics/icon.ico",
+                "[target/]/resource/esmodules-[build-time]/Io/Oidis/Studio/Gui",
+                "[target/]/resource/javascript/loader.min.js",
+                "[target/]/test/resource/data/Io/Oidis/Studio/Gui"
+            ]
+        }
+    }
+});

@@ -1,0 +1,35 @@
+// * ********************************************************************************************************* *
+// *
+// * Copyright 2025 Oidis
+// *
+// * SPDX-License-Identifier: BSD-3-Clause
+// * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+// * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+// *
+// * Authored by Dmytro Dovhalenko
+// *
+// * ********************************************************************************************************* *
+@use "../GeneralVariables.d";
+@use "@io-oidis-gui/Io/Oidis/Gui/ColorMap.d" as GuiColorMap;
+
+.#{GeneralVariables.$IoOidisStudioGuiPages} {
+  .MainPage {
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bs-body-bg);
+
+      :hover {
+        background: var(--bs-primary-text-emphasis);
+      }
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background: var(--bs-primary);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "components": [
+        {
+            "name": "homePanel",
+            "label": "Home Panel",
+            "className": "HomePanel",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/HomePanel.js",
+            "category": "Project panels",
+            "htmlPattern": "<div><span>HomePanel</span></div>"
+        },
+        {
+            "name": "topActionsPanel",
+            "label": "Top Actions Panel",
+            "className": "TopActionsPanel",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Panels/TopActionsPanel.js",
+            "category": "Project panels",
+            "htmlPattern": "<div><span>TopActionsPanel</span></div>"
+        },
+        {
+            "name": "pathInputDialog",
+            "label": "Path Input Dialog",
+            "className": "PathInputDialog",
+            "path": "@io-oidis-studio-gui/Io/Oidis/Studio/Gui/Dialogs/PathInputDialog.js",
+            "category": "Project dialogs",
+            "htmlPattern": "<div><span>PathInputDialog</span></div>"
+        }
+    ]
+}

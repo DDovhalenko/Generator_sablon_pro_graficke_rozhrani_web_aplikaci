@@ -1,0 +1,15 @@
+Io.Oidis.Builder.DAO.Resources.Data({
+    domain: {
+        csp: {
+            enabled: false
+        }
+    },
+    target: {
+    },
+    solutions: {
+        default: "shared"
+    },
+    logger: {
+        debug: true,
+    },
+});

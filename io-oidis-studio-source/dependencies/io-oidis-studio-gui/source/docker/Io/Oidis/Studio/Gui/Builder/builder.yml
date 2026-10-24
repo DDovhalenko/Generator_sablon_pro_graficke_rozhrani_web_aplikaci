@@ -1,0 +1,33 @@
+# * ********************************************************************************************************* *
+# *
+# * Copyright 2025 Oidis
+# *
+# * SPDX-License-Identifier: BSD-3-Clause
+# * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+# * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+# *
+# * ********************************************************************************************************* *
+
+version: '3'
+
+services:
+  oidis-studio-gui-builder:
+    build: .
+    restart: "no"
+    container_name: oidis-studio-gui-builder
+    working_dir: /var/oidis/io-oidis-studio-gui
+    volumes:
+      - ../../../../../../../.git:/var/oidis/io-oidis-studio-gui/.git
+      - ../../../../../../../bin/project:/var/oidis/io-oidis-studio-gui/bin/project
+      - ../../../../../../../resource:/var/oidis/io-oidis-studio-gui/resource
+      - ../../../../../../../source:/var/oidis/io-oidis-studio-gui/source
+      - ../../../../../../../test:/var/oidis/io-oidis-studio-gui/test
+      - ../../../../../../../package.conf.jsonp:/var/oidis/io-oidis-studio-gui/package.conf.jsonp
+      - ../../../../../../../LICENSE.txt:/var/oidis/io-oidis-studio-gui/LICENSE.txt
+      - ../../../../../../../README.md:/var/oidis/io-oidis-studio-gui/README.md
+      - ../../../../../../../build/reports:/var/oidis/io-oidis-studio-gui/build/reports
+    environment:
+      DEPLOY_DISABLED: ${DEPLOY_DISABLED}
+      OIDIS_CI_RUN: ${OIDIS_CI_RUN}
+      OIDIS_NO_TEST_FAIL: ${OIDIS_NO_TEST_FAIL}
+      OIDIS_IGNORE_TESTS: ${OIDIS_IGNORE_TESTS}

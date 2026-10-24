@@ -1,0 +1,49 @@
+/* ********************************************************************************************************* *
+ *
+ * Copyright 2025-2026 Oidis
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+ * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+ *
+ * ********************************************************************************************************* */
+Io.Oidis.Builder.DAO.Resources.Data({
+    $interface: "IProjectSolution",
+    target: {
+        resources: {
+            oidisStyle: {
+                input: "resource/template/oidis.min.css",
+                output: "resource/libs/Bootstrap/bootstrap.min.css",
+                skipReplace: true
+            },
+            oidisJS: {
+                input: "resource/template/oidis.min.js",
+                output: "resource/libs/Bootstrap/bootstrap.min.js",
+                skipReplace: true
+            },
+            oidisLicense: {
+                input: "resource/template/LICENSE",
+                output: "resource/libs/Bootstrap/LICENSE",
+                skipReplace: true
+            },
+            editorStyle: {
+                input: "resource/template/editor/bootstrap.min.css",
+                output: "resource/libs/Bootstrap/editor/bootstrap.min.css",
+                skipReplace: true
+            }
+        },
+        requestPatterns: {
+            bootstrap: "/resource/libs/Bootstrap/*"
+        }
+    },
+    licensesRegister: {
+        bootstrap: {
+            version: ">= 5.3.3",
+            description: "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            author: "The Bootstrap Authors",
+            license: "MIT. See LICENSE",
+            format: "source code",
+            location: ["[application-name][.exe]/resource/libs/Bootstrap"]
+        }
+    }
+});

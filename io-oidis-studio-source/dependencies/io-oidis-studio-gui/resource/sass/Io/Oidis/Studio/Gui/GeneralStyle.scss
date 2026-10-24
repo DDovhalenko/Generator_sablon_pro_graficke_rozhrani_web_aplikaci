@@ -1,0 +1,47 @@
+// * ********************************************************************************************************* *
+// *
+// * Copyright 2025-2026 Oidis
+// *
+// * SPDX-License-Identifier: BSD-3-Clause
+// * The BSD-3-Clause license for this file can be found in the LICENSE.txt file included with this distribution
+// * or at https://spdx.org/licenses/BSD-3-Clause.html#licenseText
+// *
+// * Authored by Dmytro Dovhalenko
+// *
+// * ********************************************************************************************************* *
+@use "GeneralVariables.d";
+
+// Global scrollbar styling — WebKit (Chrome, Edge, Safari)
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: var(--bs-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-primary);
+  filter: brightness(.8);
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+// Firefox
+* {
+  scrollbar-color: var(--bs-primary) transparent;
+  scrollbar-width: thin;
+}
+
